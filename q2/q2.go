@@ -21,7 +21,9 @@ func ProblemsSolved(answers [][3]bool) int {
 				soma++
 			}
 		}
-
+		if soma >= 2 {
+			count++
+		}
 	}
 	return count
 }
